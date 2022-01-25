@@ -1,3 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/background.png');
+}
 .App {
   text-align: center;
 }
+
+#header, #subtitles, #planets, #missoes {
+  text-align: center;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  margin: 40px;
+}
+
+#header{
+  font-size: 40px;
+}
+
+#subtitles {
+  font-size: 40px;
+}
+
+#planets {
+  font-size: 25px;
+}
+
+#missoes {
+  font-size: 20px;
+  border: 3px solid white;
+  border-radius: 8px;
+  width: 200px;
+}
+
